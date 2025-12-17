@@ -209,3 +209,13 @@ marimo/_lsp/
 __marimo__/
 
 .csv
+
+# Project data (intentionally excluded)
+data/raw/**
+data/processed/**
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+data/00_data_loading.ipynb
